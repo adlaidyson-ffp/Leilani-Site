@@ -1,0 +1,62 @@
+:root {
+  --blue-dark: #000b40;
+  --text-main: #ffffff;
+  --accent: #ffcc70;
+  --accent-hover: #ffd88a;
+}
+
+body {
+  background-color: var(--blue-dark);
+  color: var(--text-main);
+  font-family: 'Arial', sans-serif;
+  margin: 0;
+  padding: 0;
+  text-align: center;
+}
+
+h1, h2 {
+  color: var(--accent);
+}
+
+a {
+  color: var(--accent);
+  text-decoration: underline;
+}
+
+a:hover {
+  color: var(--accent-hover);
+}
+
+.button {
+  background-color: var(--accent);
+  color: var(--blue-dark);
+  padding: 15px 30px;
+  margin: 10px;
+  border-radius: 15px;
+  font-size: 1.2rem;
+  font-weight: bold;
+  text-decoration: none;
+  display: inline-block;
+  transition: all 0.2s ease;
+}
+
+.button:hover {
+  transform: scale(1.05);
+  background-color: var(--accent-hover);
+}
+
+footer {
+  margin-top: 60px;
+  padding: 20px;
+  font-size: 0.9rem;
+  color: var(--text-main);
+}
+
+.profile-pic {
+  width: 120px;
+  height: 120px;
+  border-radius: 50%;
+  display: block;
+  margin: 0 auto 1rem auto;
+}
+
